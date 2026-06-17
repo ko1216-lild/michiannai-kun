@@ -1,0 +1,161 @@
+[
+  {
+    "id": "route_50820d43e76626a7ba2bd983c1bf3cda",
+    "shareId": "share_46ed8df05bb4228b2044af5ba793231c",
+    "name": "田中様　案内",
+    "category": "real_estate_viewing",
+    "mainAddress": "大阪市福島区玉川3-6-9",
+    "assigneeName": "佐藤",
+    "memo": "",
+    "createdAt": "2026-06-17T13:06:44.865Z",
+    "updatedAt": "2026-06-17T13:06:44.865Z",
+    "startedAt": null,
+    "completedAt": null,
+    "currentPointIndex": 0,
+    "points": [
+      {
+        "id": "point_f56e4138f83ddee868ee6f67b51259b9",
+        "type": "normal",
+        "title": "鍵を借りる",
+        "address": "",
+        "phone": "",
+        "memo": "",
+        "warning": "",
+        "order": 1,
+        "workerNotes": "",
+        "checklist": [
+          {
+            "id": "check_748218c05fedec4ce63283c4ad39fd61",
+            "text": "鍵を借りた",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_53ec4dfdab66cb574cfc294864ea7143",
+            "text": "返却方法を確認した",
+            "done": false,
+            "optional": false
+          }
+        ]
+      },
+      {
+        "id": "point_b10b93d1a5a7e88a0e9ac8ccf0a4b146",
+        "type": "parking",
+        "title": "駐車場に停める",
+        "address": "",
+        "phone": "",
+        "memo": "",
+        "warning": "",
+        "order": 2,
+        "workerNotes": "",
+        "checklist": [
+          {
+            "id": "check_9d894b7f12af1ab1664aa6bac9fa586b",
+            "text": "駐車した",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_ab868c3fdaf1cf67ff5d8433819d5d0f",
+            "text": "駐車場名を控えた",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_c30135657f47ad5bf03b7f366027f558",
+            "text": "区画番号を控えた",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_3c4c7b361e04b7f9082eac75a6517999",
+            "text": "料金看板を確認した",
+            "done": false,
+            "optional": false
+          }
+        ]
+      },
+      {
+        "id": "point_8522f01abb302a1eb8798426585b5f50",
+        "type": "normal",
+        "title": "物件へ行く",
+        "address": "",
+        "phone": "",
+        "memo": "",
+        "warning": "",
+        "order": 3,
+        "workerNotes": "",
+        "checklist": [
+          {
+            "id": "check_280d71ed94f9f455f42ab4a306b780f4",
+            "text": "物件に到着した",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_79af54f228bc4b2d5e446ece59deea0c",
+            "text": "外観を確認した",
+            "done": false,
+            "optional": false
+          }
+        ]
+      },
+      {
+        "id": "point_7440e2dc843eb09c7810a711da0a0078",
+        "type": "normal",
+        "title": "室内を確認する",
+        "address": "",
+        "phone": "",
+        "memo": "",
+        "warning": "",
+        "order": 4,
+        "workerNotes": "",
+        "checklist": [
+          {
+            "id": "check_e15b34926275b4569003743996e6a732",
+            "text": "室内を確認した",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_5fa6d34029298c193d9d3694edfc3b0a",
+            "text": "写真を撮影した",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_b9f29b1c00451c96de4960ce8c083d06",
+            "text": "施錠を確認した",
+            "done": false,
+            "optional": false
+          }
+        ]
+      },
+      {
+        "id": "point_89e91ec28d7ae01210f33d349393f825",
+        "type": "normal",
+        "title": "鍵を返却する",
+        "address": "",
+        "phone": "",
+        "memo": "",
+        "warning": "",
+        "order": 5,
+        "workerNotes": "",
+        "checklist": [
+          {
+            "id": "check_14a3361f41fb9d675b8411a600e6c790",
+            "text": "鍵を返却した",
+            "done": false,
+            "optional": false
+          },
+          {
+            "id": "check_5edc0ae528dd09f8fb27153e8c612362",
+            "text": "完了報告をした",
+            "done": false,
+            "optional": false
+          }
+        ]
+      }
+    ]
+  }
+]
