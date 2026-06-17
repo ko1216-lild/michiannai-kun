@@ -54,24 +54,65 @@ a {
 }
 
 .top-header {
-  background: var(--navy);
+  background: linear-gradient(135deg, #143A7B 0%, #1D4ED8 100%);
   color: #fff;
-  padding: 26px 20px 24px;
+  padding: 18px 18px 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 12px 28px rgba(20, 58, 123, 0.18);
 }
 
-.top-header h1 {
-  margin: 0;
-  font-size: 28px;
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.brand-mark {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
   font-weight: 900;
-  letter-spacing: 0;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
-.top-header p {
-  margin: 8px 0 0;
-  color: rgba(255, 255, 255, 0.86);
-  font-size: 16px;
-  font-weight: 700;
+.brand-copy {
+  min-width: 0;
+}
+
+.top-header h1,
+.brand-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 850;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+}
+
+.top-header p,
+.brand-subtitle {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 7px 0 0;
+  color: rgba(239, 246, 255, 0.92);
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.2;
 }
 
 .content {

@@ -78,9 +78,13 @@
 
   function header(title, subtitle) {
     const box = el("header", "top-header");
-    const h1 = el("h1", "", title);
-    box.appendChild(h1);
-    if (subtitle) box.appendChild(el("p", "", subtitle));
+    const row = el("div", "brand-row");
+    row.appendChild(el("div", "brand-mark", "↗"));
+    const copy = el("div", "brand-copy");
+    copy.appendChild(el("h1", "brand-title", title));
+    if (subtitle) copy.appendChild(el("p", "brand-subtitle", subtitle));
+    row.appendChild(copy);
+    box.appendChild(row);
     return box;
   }
 
