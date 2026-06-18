@@ -121,7 +121,7 @@
     const address = el("p", "muted", routeData.mainAddress || "基準住所未設定");
     const actions = el("div", "card-actions");
     const edit = primaryButton("編集", "btn btn-secondary");
-    const share = primaryButton("共有画面", "btn btn-map");
+    const share = primaryButton("開始", "btn btn-map");
     edit.addEventListener("click", () => setView(`/routes/${routeData.id}`));
     share.addEventListener("click", () => setView(`/share/${routeData.shareId}`));
     actions.append(edit, share);
